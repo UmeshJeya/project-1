@@ -1,0 +1,57 @@
+.navBar {
+    position:relative;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+}
+    
+
+
+
+nav a {
+    display: inline-block;
+    width: 100%;
+    font-size: 18px;
+    color: #042259;
+    padding: 15px 30px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h1 {
+  
+   
+    line-height: 87.3px;
+    letter-spacing: 0.9px;
+    margin-top: 200px;
+    text-transform: uppercase;
+  
+   
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul {
+    display: flex;
+}
+
+.mainMenu {
+    a {
+       flex-direction: row;
+       justify-content: space-around;
+       display: flex;
+       padding: 40px 50px 50px 0px;
+       margin: 50px;
+      
+       
+
+   
+}
+}
