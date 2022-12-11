@@ -1,3 +1,7 @@
+h1, h2, h3, h4, p {
+  margin: 0;
+}
+
 html {
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
@@ -231,8 +235,6 @@ html {
 }
 
 .navBar {
-  position: relative;
-  top: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -240,25 +242,34 @@ html {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 70%;
+  min-height: 75px;
+  margin: 0 auto;
 }
-
-nav a {
-  display: inline-block;
-  width: 100%;
+.navBar .nav a {
   font-size: 18px;
   color: #042259;
-  padding: 15px 30px;
   text-decoration: none;
-  text-align: center;
   text-transform: uppercase;
 }
-
-h1 {
-  line-height: 87.3px;
-  letter-spacing: 0.9px;
-  margin-top: 200px;
+.navBar .nav--left a {
+  margin-right: 10px;
+}
+.navBar .nav--right a, .navBar .nav--right button {
+  margin-left: 10px;
+}
+.navBar .nav button {
+  background: none;
+  border: none;
+}
+.navBar h1 {
+  margin: 0;
   text-transform: uppercase;
 }
 
@@ -275,15 +286,53 @@ nav ul {
 }
 
 .mainMenu a {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 40px 50px 50px 0px;
-  margin: 50px;
+}
+
+.wrapper {
+  text-align: center;
+  background-color: #C3DAB7;
+}
+
+.landingSection {
+  height: 100vh;
+  background: url("./../assets/home-1.jpeg");
+  background-size: cover;
+  background-position: bottom center;
+}
+
+.landingSectionBlog {
+  height: 90vh;
+  background: url("./../assets/blog-1.jpeg");
+  background-size: cover;
+  background-position: bottom center;
+}
+
+footer {
+  padding: 90px 0 50px 0;
+}
+footer .footerFlexContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 90px;
+}
+footer .footerNav {
+  width: 40%;
+}
+footer .footerNav nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+footer .footerNav nav ul {
+  width: 33%;
 }

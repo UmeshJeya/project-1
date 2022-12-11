@@ -1,0 +1,27 @@
+footer {
+    
+    padding: 90px 0 50px 0;
+
+    .footerFlexContainer {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 90px;
+
+       
+    }
+
+    .footerNav {
+        width: 40%;
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+
+            ul {
+                width: 33%;
+            }
+
+        
+        }
+    }
+}

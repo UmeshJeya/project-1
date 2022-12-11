@@ -1,3 +1,20 @@
+.wrapper {
+    text-align: center;
+    background-color: #C3DAB7;
+    
+}
 
 
- 
+.landingSection {
+    height: 100vh;
+    background: url("./../assets/home-1.jpeg");
+    background-size: cover;
+    background-position: bottom center;
+}
+
+.landingSectionBlog {
+    height: 90vh;
+    background: url("./../assets/blog-1.jpeg");
+    background-size: cover;
+    background-position: bottom center;
+}

@@ -6,40 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project1</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <script src="https://kit.fontawesome.com/f1c5ad3035.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav class="navBar">
-        <div>
-        
-        <h1 class="mainTitle">Creative</h1>
-        
-    </div>
-        <nav>
-           
-            <ul class="mainMenu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Shop</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-           
-        </nav>
-    </nav>
-    <header>
-        <div class="headerImgContainer wrapper">
-            <img src="./assets/home-1.jpeg" alt="Desk">
-            <img src="./assets/home-circle-text.png" alt="Circle text">
-            <img src="./assets/home-2.jpeg" alt="Cactus desk">
-        </div>
-    </header>
+    <section class="landingSection">
+
+        <header>
+            <div>
+                <div class="navBar">
+                    <nav class="nav nav--left">
+                    
+                        <ul class="mainMenu">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="./blog.html">Blog</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                        </ul>
+                    </nav>
+                    <h1 class="mainTitle">Creative</h1>
+                    <nav class="nav nav--right">
+                        <ul class="mainMenu">
+                            <li><a href="#">Shop</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><button>
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button></li>
+                            <li><button>
+                                <i class="fa-solid fa-bag-shopping"></i>
+                            </button></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+    </section>
     <main>
+        
         <section>
             <div class="wrapper">
                 <h2>Branding</h2>
                 <p>Lorem ipsum dolor sit amet.</p>
                 <h3>Design & Develop</h3>
                 <p>Lorem ipsum dolor sit amet.</p>
+        </section>
+                
                 <img src="./assets/home-3.jpeg" alt="Man">
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, debitis necessitatibus vel asperiores quisquam neque, cupiditate nemo consequatur eos placeat officiis eligendi exercitationem nam! Obcaecati itaque maxime suscipit harum omnis non explicabo laboriosam provident sapiente, mollitia facilis temporibus deserunt nostrum adipisci soluta doloribus, quia inventore repudiandae architecto? Sunt, qui! Inventore.</p>
                 <img src="./assets/home-4.jpeg" alt="Tea and Ipad">
@@ -83,9 +92,12 @@
             <img src="./assets/home-10.jpeg" alt="Phone and coffee">
         </section>
     </main>
-    <footer>
+    <footer id="footer">
+        <div class="wrapper">
+            <div class="footerFlexContainer">
+        <div class="footerNav">
         <nav>
-            <ul>
+            <ul class="footerShop">
                 <li>
                     <a href="">Contact us</a>
                     <a href="">Recent posts</a>
@@ -114,6 +126,9 @@
                 </li>
             </ul>
         </nav>
+        </div>
+        </div>
+        </div>
         <h6>Creative Agency</h6>
     </footer>
 </body>
