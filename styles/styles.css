@@ -318,7 +318,7 @@ nav ul {
 }
 
 .brandingSection {
-  min-height: 70vh;
+  min-height: 120vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -507,6 +507,50 @@ nav ul {
   margin-left: 300px;
 }
 
+@media (max-width: 1000px) {
+  footer .footerContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 100px;
+  }
+  footer .footerColumn {
+    width: 80%;
+  }
+  footer .footerColumn h2 p {
+    width: auto;
+  }
+}
+@media (max-width: 500px) {
+  .navBar {
+    width: 100%;
+  }
+  .navBar .mainMenu a {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  footer .footerContainer {
+    margin-bottom: 60px;
+  }
+  footer .footerColumn h2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  footer .footerColumn h2 p {
+    margin-bottom: 24px;
+    width: 100%;
+  }
+}
 .footerContainer {
   min-height: 55vh;
   display: -webkit-box;
