@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Emblema+One&family=Montserrat:wght@400;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="styles/styles.css">
     <script src="https://kit.fontawesome.com/f1c5ad3035.js" crossorigin="anonymous"></script>
 </head>
@@ -26,7 +30,7 @@
                     <nav class="nav nav--right">
                         <ul class="mainMenu">
                             <li><a href="#">Shop</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="./contact.html">Contact</a></li>
                             <li><button>
                                 <i class="fa-solid fa-magnifying-glass"></i>
                             </button></li>
@@ -41,44 +45,87 @@
     </section>
     <main>
         
-        <section>
-            <div class="wrapper">
-                <h2>Branding</h2>
-                <p>Lorem ipsum dolor sit amet.</p>
-                <h3>Design & Develop</h3>
-                <p>Lorem ipsum dolor sit amet.</p>
+        <section class="brandingSection">
+            <div class="brandingImage">
+                <img src="./assets/home-2.jpeg" alt="">
+                <img class="circleText" src="./assets/home-circle-text.png" alt="">
+            </div>
+            <div class="brandingInfo">
+                <div>
+                    <h3>Branding</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, ex.</p>
+                </div>
+                <div>
+                    <h3>Design & Develop</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, ex.</p>
+                </div>
+
+            </div>
         </section>
-                
+        <section class="testimonialSection">
+            <i class="fa-solid fa-chevron-left"></i>
+            <div>
                 <img src="./assets/home-3.jpeg" alt="Man">
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, debitis necessitatibus vel asperiores quisquam neque, cupiditate nemo consequatur eos placeat officiis eligendi exercitationem nam! Obcaecati itaque maxime suscipit harum omnis non explicabo laboriosam provident sapiente, mollitia facilis temporibus deserunt nostrum adipisci soluta doloribus, quia inventore repudiandae architecto? Sunt, qui! Inventore.</p>
-                <img src="./assets/home-4.jpeg" alt="Tea and Ipad">
+
             </div>
+        <i class="fa-solid fa-chevron-right"></i>
+        </section>
+           <section class="featuresSection">
             <div>
-                <ul>
-                    <li>
-                        <a href="">Unique Design</a>
-                    </li>
-                    <li>
-                        <a href="">Retina Ready</a>
-                    </li>
-                    <li>
-                        <a href="">Advanced Option</a>
-                    </li>
-                    <li>
-                        <a href="">Seo Marketing</a>
-                    </li>
-                    <li>
-                        <a href="">Ecommerce Ready</a>
-                    </li>
-                    <li>
-                        <a href="">Customizable</a>
-                    </li>
-                </ul>
-                <h3>Meet Our Team</h3>
-                <h4>Team Players</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque molestiae facilis repellendus amet quae enim saepe quia cumque earum explicabo tempore, nihil voluptate sequi esse distinctio fugit similique aut? Fugit?</p>
-                <h5>Want to work with us!</h5>
+                <div class="feature">
+                    <i class="fa-solid fa-chevron-left"></i>
+                    <div>
+                        <h2>Unique Design</h2>
+                        <p>Twitter validation first mover advantage advisor angel investor beta churn rate low hanging fruit burn</p>
+                    </div>
+                 
+                </div>
+                <div class="feature">
+                    <i class="fa-brands fa-twitter"></i>
+                    <div>
+                        <h2>Retina Ready</h2>
+                        <p>Twitter validation first mover advantage advisor angel investor beta churn rate low hanging fruit burn</p>
+                    </div>
+                
+                </div>
+                <div class="feature">
+                    <i class="fa-brands fa-twitter"></i>
+                    <div>
+                        <h2>Advanced Options</h2>
+                        <p>Twitter validation first mover advantage advisor angel investor beta churn rate low hanging fruit burn</p>
+                    </div>
+                
+                </div>
             </div>
+                        <div>
+                            <div class="feature">
+                                <i class="fa-brands fa-twitter"></i>
+                                <div>
+                                    <h2>SEO Marketing</h2>
+                                    <p>Twitter validation first mover advantage advisor angel investor beta churn rate low hanging fruit burn</p>
+                                </div>
+                        
+                            </div>
+                            <div class="feature">
+                                <i class="fa-brands fa-twitter"></i>
+                                <div>
+                                    <h2>Ecommerce Ready</h2>
+                                    <p>Twitter validation first mover advantage advisor angel investor beta churn rate low hanging fruit burn</p>
+                                </div>
+                        
+                            </div>
+                            <div class="feature">
+                                <i class="fa-brands fa-twitter"></i>
+                                <div>
+                                    <h2>Customizable</h2>
+                                    <p>Twitter validation first mover advantage advisor angel investor beta churn rate low hanging fruit burn</p>
+                                </div>
+                        
+                            </div>
+                        </div>
+
+           </section>
             <div class="categories" id="categories">
                 <img src="./assets/home-5.jpeg" alt="Person1">
                 <img src="./assets/home-6.jpeg" alt="Person2">
@@ -92,8 +139,62 @@
             <img src="./assets/home-10.jpeg" alt="Phone and coffee">
         </section>
     </main>
-    <footer id="footer">
-        <div class="wrapper">
+    <footer>
+        <div class="footerContainer">
+            <div class="footerColumn">
+                <h2>Contact Us</h2>
+                <div class="footerColumnContact">
+                    <p>6591 Orchard Street, NY 10002, United States</p>
+                    <p>Email:contact@onepro.co</p>
+                    <p>Phone 01: +00 (9) 123 3456 789</p>
+                    <p>Phone 01: +00 (9) 123 3456 789</p>
+                    <p>Phone 01: +00 (9) 123 3456 789</p>
+                    
+                </div>
+                <div class="footerColumnSocial">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+
+            </div>
+            <div class="footerColumn">
+                    <h2>Recent Posts</h2>
+                    <ul class="footerColumnPosts">
+                    <li>
+                        <a href="">Lorem, ipsum dolor</a>
+                    </li>
+                    <li>
+                        <a href="">Lorem, ipsum dolor</a>
+                    </li>
+                    <li>
+                        <a href="">Lorem, ipsum dolor</a>
+                    </li>
+                    <li>
+                        <a href="">Lorem, ipsum dolor</a>
+                    </li>
+                    <li>
+                        <a href="">Lorem, ipsum dolor</a>
+                    </li>
+                    </ul>
+
+            </div>
+            <div class="footerColumn">
+                    <h2>Subscribe Now</h2>
+                    <p class="footerEmail">Sign up for emails and notifications below</p>
+                    <div>
+                        <input type="text">
+                        <button></button>
+                    </div>
+
+            </div>
+        </div>
+        <div class="footerCompany">Creative Agency</div>
+
+
+
+
+        <!-- <div class="footerContainer">
             <div class="footerFlexContainer">
         <div class="footerNav">
         <nav>
@@ -129,7 +230,7 @@
         </div>
         </div>
         </div>
-        <h6>Creative Agency</h6>
+        <h6>Creative Agency</h6> -->
     </footer>
 </body>
 </html>

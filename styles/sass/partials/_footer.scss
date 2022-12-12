@@ -1,27 +1,68 @@
-footer {
+.footerContainer {
+    min-height: 55vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    background-color: #333333;
+    border-bottom: 1px solid grey;
+   
+    padding-top: 10vh;
     
-    padding: 90px 0 50px 0;
+    .footerColumnContact{
+        margin-bottom: 30px;
 
-    .footerFlexContainer {
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 90px;
-
-       
-    }
-
-    .footerNav {
-        width: 40%;
-
-        nav {
-            display: flex;
-            justify-content: space-between;
-
-            ul {
-                width: 33%;
-            }
-
-        
+        p{
+            margin-bottom: 4px;
         }
+        
+        
     }
+    .footerColumnSocial {
+                
+    
+        i {
+            margin-right: 10px;
+        }
+
+
+    }
+    .footerColumnPosts {
+       
+        list-style-type: disc;
+        a{
+            color: #f6f6f6;
+            text-decoration: none;
+        }
+       
+
+        li{
+            margin-bottom: 10px;
+        }
+        
+    }
+
+    .footerColumn {
+        input{
+            margin-top: 30px;
+            margin-left: 50px;
+        }
+       
+        }
+        
+    }
+       
+.footerCompany {
+    
+    background-color: #333333;
+    text-transform: uppercase;
+    color: #f6f6f6;
+   
+    font-size: 14px;
+    padding-top: 55px;
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+
+   
 }
+
