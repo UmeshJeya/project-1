@@ -116,4 +116,47 @@
     }
 }
 
+.categories{
+    display: flex;
+    align-items: center;
+    
+    
 
+    h3{
+        margin-bottom: 50px;
+        margin-left: 100px;
+        display: flex;
+        justify-content: center;
+        padding-right: 50%;
+        
+    }
+    p{
+     
+    }
+}
+
+.teamTitle{
+   
+    margin-left: 700px;
+    padding-top: 100px;
+    padding-bottom: 70px;
+ 
+}
+
+.endTitle{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 400px;
+    
+}
+
+.categoriesOne{
+    margin-right: 300px;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.categoriesTwo{
+    margin-left: 300px;
+}
